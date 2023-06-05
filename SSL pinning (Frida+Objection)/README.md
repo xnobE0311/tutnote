@@ -4,11 +4,12 @@ The article talks about how to bypass cert pinning using frida server & objectio
 
 
 # Requirement
-Python version 3.10.x (dated 20230605)
-Android SDK Platform-Tools
-Frida server.
-Objection
-Target package app name (com.xxxx.yyy.zzz)
+1. Python version 3.10.x (dated 20230605)
+2. Android SDK Platform-Tools
+3. Frida server.
+4. Target package app name (com.xxxx.yyy.zzz)
+5. Objection
+
 
 ## Install Android SDK
 Go to Android SDK Platform-Tools
