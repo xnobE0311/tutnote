@@ -37,6 +37,11 @@ Noted: If you connected multiple device you might need to use this command to fi
 
 **Note:** for any permission error in adb should try to get super user with `su` in an root device. You will also need to grant superuser will android UI.
 
+## Find target app package name
+1. Use adb shell with `./adb shell`
+2. Use check all package and search with 
+`pm list packages -f | grep <key_word>`
+
 ## Objection
 1. Install Objection with pip
 `pip install objection`
